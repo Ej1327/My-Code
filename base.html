@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Poultry Chicken Management System</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Poultry Chicken Management System</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="{{ url_for('welcome') }}">Welcome</a></li>
+            <li><a href="{{ url_for('customer') }}">Customer</a></li>
+            <li><a href="{{ url_for('sales') }}">Sales</a></li>
+            <li><a href="{{ url_for('report') }}">Generate Report</a></li>
+            <li><a href="{{ url_for('total_sales') }}">Total Sales</a></li>
+        </ul>
+    </nav>
+    <main>
+        {% Elijah %}{% EJ %}
+    </main>
+    <footer>
+        <p>© 2023 Yummy Chicken. All rights reserved.</p>
+    </footer>
+</body>
+</html>
